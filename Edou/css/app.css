@@ -1,0 +1,36 @@
+/* Add these styles to your existing CSS */
+
+.button-container {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  background: #f0f9fa;
+  border-radius: 8px;
+}
+
+.toggle-button {
+  padding: 0.5rem 1rem;
+  background-color: #57737A;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.toggle-button:hover {
+  background-color: #455A61;
+}
+
+.toggle-button:active {
+  transform: scale(0.98);
+}
+
+.manual-override {
+  text-align: center;
+  color: #57737A;
+  font-style: italic;
+  margin-top: 1rem;
+}
